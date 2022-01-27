@@ -10,6 +10,9 @@ module.exports = {
         twitter: '#0C72B7',
         discord: '#5865F2',
       },
+      margin: {
+        '50px': '50px',
+      },
     },
   },
   plugins: [],
