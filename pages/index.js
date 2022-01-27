@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { IconContext } from 'react-icons';
-import { FaTwitter, FaDiscord } from 'react-icons/fa';
+import { FaTwitter, FaDiscord, FaArrowRight } from 'react-icons/fa';
 
 const TWITTER = 'twitter.com/0xElijah';
 const DISCORD = '0xElijah#6969';
@@ -31,21 +31,24 @@ const copyUsername = () => {
 
 export default function Home() {
   return (
-    <div className="bg-sand">
+    <div className="bg-sand pb-20">
       <HeaderImg />
-      <div className="max-w-screen-md mx-auto px-5">
+
+      {/* Me */}
+      <div className="max-w-screen-md mx-auto px-5 ">
         <div className="flex justify-between items-end pt-7 pb-20">
           <ProfileImg />
           <div className="pl-7 pb-3">
-            <h1 class="text-5xl font-bold pb-3">0xElijah</h1>
+            <h1 class="text-3xl sm:text-5xl font-bold pb-3">0xElijah</h1>
             <p className="text-md">
               Solana Degen | Dev that will do something 🤝
             </p>
           </div>
         </div>
 
-        <div className="pb-20">
-          <h2 className="text-2xl font-bold pb-2">Hello World</h2>
+        {/* Intro */}
+        <div className="pb-10">
+          <h2 className="text-lg sm:text-2xl font-bold pb-2">Hello World</h2>
           Eli here, a full stack and Rust developer looking to join a team of
           builders in the Solana ecosystem! Hit me up if you are hiring:
           <div className="flex flex-col justify-around p-10 sm:flex-row">
@@ -72,6 +75,29 @@ export default function Home() {
               {DISCORD}
             </div>
           </div>
+        </div>
+
+        {/* Portfolio */}
+        <div className="pb-20">
+          <h2 className="text-lg sm:text-2xl font-bold pb-2">Web3 Portfolio</h2>
+          <div>
+            <div className="flex pl-5">
+              <IconContext.Provider
+                value={{ className: 'mr-5 mt-1', size: 20 }}
+              >
+                <FaArrowRight />
+              </IconContext.Provider>
+              <div>
+                <h3 className="text-xl">NFT Viewer</h3>
+                <p>Simple display of NFTs in a Solana wallet</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* NFTs */}
+        <div className="pb-10">
+          <h2 className="text-lg sm:text-2xl font-bold pb-2">My NFTs</h2>
         </div>
       </div>
     </div>
