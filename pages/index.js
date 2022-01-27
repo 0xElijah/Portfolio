@@ -39,7 +39,7 @@ export default function Home() {
         <div className="flex justify-between items-end pt-7 pb-10">
           <ProfileImg />
           <div className="pl-7 sm:pb-3 sm:mb-10 z-50">
-            <h1 class="text-3xl sm:text-5xl font-bold pb-1 sm:pb-3">
+            <h1 className="text-3xl sm:text-5xl font-bold pb-1 sm:pb-3">
               0xElijah
             </h1>
             <p className="text-md">
@@ -54,6 +54,7 @@ export default function Home() {
             <a
               href={`https://` + TWITTER}
               target="_blank"
+              rel="noreferrer"
               className="flex font-bold m-2"
             >
               <IconContext.Provider
