@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import { IconContext } from 'react-icons';
 import { FaTwitter, FaDiscord, FaArrowRight } from 'react-icons/fa';
 
@@ -79,10 +80,10 @@ export default function Home() {
 
         {/* Portfolio */}
         <div className="pb-20">
-          <div>
-            <h3 className="font-bold sm:text-lg">NFT Viewer</h3>
-            <p>Simple gallery of NFTs in a given Solana wallet</p>
-          </div>
+          <Link href="/gallery">
+            <h3 className="font-bold cursor-pointer sm:text-lg">NFT Gallery</h3>
+          </Link>
+          <p>Simple gallery of NFTs in a given Solana wallet</p>
         </div>
 
         {/* NFTs */}
