@@ -1,0 +1,21 @@
+{
+  "jobs": [
+    {
+      "id": 0,
+      "company": "Company",
+      "title": "Position",
+      "dates": "Sep 2020 - Present",
+      "description": "Description.",
+      "skills": [
+        "Javascript",
+        "Drupal",
+        "PHP",
+        "React",
+        "Postman",
+        "Fullstack",
+        "Production"
+      ],
+      "url": "https://domain.com/"
+    }
+  ]
+}

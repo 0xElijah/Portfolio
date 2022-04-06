@@ -1,0 +1,20 @@
+{
+  "contact": [
+    {
+      "id": 1,
+      "platform": "Twitter",
+      "url": "https://twitter.com/0xElijah"
+    },
+    {
+      "id": 2,
+      "platform": "Github",
+      "url": "https://github.com/eedelosreyes2"
+    },
+    {
+      "id": 3,
+      "platform": "Email",
+      "url": "mailto:elijah@diffusion.me"
+    }
+  ],
+  "discord": "0xElijah#6969"
+}

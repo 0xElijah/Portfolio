@@ -1,0 +1,12 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "title": "Title",
+      "dates": "Apr - Sep 2021",
+      "description": "Description.",
+      "skills": ["Javascript/JSX", "HTML/CSS", "React", "Node", "Bootstrap"],
+      "url": "https://domain.com/path/"
+    }
+  ]
+}
