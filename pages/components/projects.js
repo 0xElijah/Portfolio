@@ -1,9 +1,9 @@
 import { projects } from '../clientData/projects.json';
 
-export default function Projects() {
+export default function Projects(props) {
   return (
     <div>
-      <div className="font-bold pb-5">Web2 Projects</div>
+      <div className="font-bold pb-5">Projects</div>
       {projects.map(({ id, title, dates, description, skills, url }) => (
         <div key={id} className="pb-10">
           <div className="flex-column pb-2">
@@ -31,6 +31,15 @@ export default function Projects() {
           </div>
         </div>
       ))}
+      <div className="">
+        <span
+          className="font-bold cursor-pointer"
+          onClick={() => props.copyUsername()}
+        >
+          👋 Contact me
+        </span>{' '}
+        to see the rest of my projects (on personal github)
+      </div>
     </div>
   );
 }

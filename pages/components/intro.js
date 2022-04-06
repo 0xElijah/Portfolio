@@ -7,12 +7,12 @@ export default function Intro() {
         href="https://twitter.com/0xElijah"
         target="_blank"
         rel="noopener noreferrer"
-        className="pr-5"
+        className="mr-5"
       >
         <Image
           src="https://pbs.twimg.com/media/FPl5xjOVgAALYA6?format=jpg"
           alt="elijahdr.eth"
-          className="rounded-full"
+          className="rounded-2xl"
           height={100}
           width={100}
         />
