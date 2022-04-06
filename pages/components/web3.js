@@ -9,10 +9,9 @@ export default function Web3() {
   return (
     <div>
       <div className="font-bold pb-5">Gm</div>
-      {/* <hr className="pb-5 w-9" /> */}
       <div className="pb-2">
-        Eli here, a web2 dev (but web3 degen) currently learning and looking to
-        extend my skills into web3.
+        Eli here, a web2 dev (learning web3 dev) and Solana NFT degen currently
+        looking to put my skills to use
       </div>
       <div>
         <div

@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import { contact } from '../clientData/contact.json';
 
 export default function Intro() {
   return (
@@ -18,7 +17,7 @@ export default function Intro() {
           width={100}
         />
       </a>
-      <div className="font-bold">0xEli / elijahdr.sol</div>
+      <div className="font-bold">0xEli • dev/degen 🤝</div>
     </div>
   );
 }
